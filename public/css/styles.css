@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f5f7;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.board-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.board {
+    background: #ebecf0;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.task-list {
+    background: #ffffff;
+    border-radius: 4px;
+    min-height: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task {
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+}
+
+.task:active {
+    cursor: grabbing;
+}
+
+.add-task {
+    background: #0079bf;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-task:hover {
+    background: #005fa3;
+}
